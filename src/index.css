@@ -1,13 +1,30 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #FAFAFA;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.logo {
+    font-size: 4rem;
+    color: #00A8E8;
+    font-weight: 900;
+    letter-spacing: .04em;
+}
+
+.heading {
+    color: #00A8E8;
+    font-size: 3rem;
+}
+
+.btn-primary {
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #4C5C68 !important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
 }
